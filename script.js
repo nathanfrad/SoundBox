@@ -1,6 +1,10 @@
 
 
+
+
 $(document).ready(function() {
+
+
     $("a").click(function () {
         $('audio').remove();
         console.log(this.id)
@@ -32,7 +36,7 @@ $(document).ready(function() {
                 break;
             case 'ilAUnCouteau':
                 $('<audio controls="controls" preload="auto" autobuffer="autobuffer" autoplay="autoplay"> <source src="https://docs.google.com/uc?export=download&id=1vYsAtlOHJP-nJTAMXJyOAeLAReqV2O7V"  type="audio/mpeg"> </audio>').appendTo('.buttons');
-                 break;
+                break;
             case 'goal':
                 $('<audio controls="controls" preload="auto" autobuffer="autobuffer" autoplay="autoplay"> <source src="https://docs.google.com/uc?export=download&id=1kw2r3Xe5Su_SYaS34a4oEtEnF9PSEqP-"  type="audio/mpeg"> </audio>').appendTo('.buttons');
 
@@ -48,11 +52,11 @@ $(document).ready(function() {
             case 'maisRomain':
                 $('<audio controls="controls" preload="auto"autobuffer="autobuffer" autoplay="autoplay"> <source src="https://docs.google.com/uc?export=download&id=1XVoi1JA2PKfw3ERGSgeDPmMum-CyMzWq"  type="audio/mpeg"> </audio>').appendTo('.buttons');
 
-                 break;
+                break;
             case 'cb67':
                 $('<audio controls="controls" preload="auto" autobuffer="autobuffer" autoplay="autoplay"> <source src="https://docs.google.com/uc?export=download&id=1Iwcv6vwhXWmXgjKAT0YTJNxq35FYRVyD"  type="audio/mpeg"> </audio>').appendTo('.buttons');
 
-                 break;
+                break;
             case 'giletJaune':
                 $('<audio controls="controls" preload="auto" autobuffer="autobuffer" autoplay="autoplay"> <source src="https://docs.google.com/uc?export=download&id=1H5_f3Iz1h8tzsKgEyh2bRLthe9F4GlM5"  type="audio/mpeg"> </audio>').appendTo('.buttons');
 
