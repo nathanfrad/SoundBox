@@ -1,4 +1,3 @@
-// var audio = new Audio('https://docs.google.com/uc?export=download&id=1En_ZEBOZ7WyHPUD5CctsnqktQo4YJElZ');
 
 document.addEventListener("DOMContentLoaded", function (event) {
 
