@@ -10,6 +10,10 @@ let ancienAudio = null
         }
         let id = this.id;
         let audio = document.getElementsByClassName(id)[0];
+        if(id === "goal"){
+            audio.volume= 0.5;
+        }
+
         audio.play();
         ancienAudio = audio;
 
